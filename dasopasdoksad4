@@ -1,0 +1,32 @@
+warning: in the working copy of 'src/main/java/org/example/Main.java', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 4c587e1..835c7a1 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -5,4 +5,10 @@[m [mAplicación de consola en Java para practicar Git y GitHub.[m
+ - IntelliJ IDEA[m
+ - Git[m
+ ## Ejecución[m
+[31m-Abrir el proyecto en IntelliJ IDEA y ejecutar la clase Main.[m
+\ No newline at end of file[m
+[32m+[m[32mAbrir el proyecto en IntelliJ IDEA y ejecutar la clase Main.[m
+[32m+[m
+[32m+[m[32m## Estructura del proyecto[m
+[32m+[m[32m- `src/Main.java`: clase principal de la aplicación.[m
+[32m+[m[32m- `docs/plan.md`: nota breve con la finalidad del proyecto.[m
+[32m+[m[32m- `.gitignore`: exclusiones de archivos no necesarios.[m
+[32m+[m[32m- `README.md`: documentación básica del proyecto.[m
+\ No newline at end of file[m
+[1mdiff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java[m
+[1mindex ab59751..ad6959a 100644[m
+[1m--- a/src/main/java/org/example/Main.java[m
+[1m+++ b/src/main/java/org/example/Main.java[m
+[36m@@ -3,5 +3,7 @@[m [mpackage org.example;[m
+ public class Main {[m
+     public static void main(String[] args) {[m
+         System.out.println("MiniInventario iniciado correctamente.");[m
+[32m+[m[32m        // Nueva linea[m
+[32m+[m[32m        System.out.println("Versión inicial con gestión básica de productos.");[m
+     }[m
+ }[m
+\ No newline at end of file[m
